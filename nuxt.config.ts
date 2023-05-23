@@ -2,5 +2,16 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss'
-    ]
+    ],
+    app: {
+        head: {
+            title: 'Nuxt Ecom',
+            meta: [
+                {name: 'description', content: 'Nuxt Ecom, everything about Nuxt 3'}
+            ],
+            link: [
+                {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
+            ]
+        }
+    }
 })
