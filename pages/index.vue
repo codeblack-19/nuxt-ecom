@@ -1,7 +1,11 @@
 <template>
     <div>
-        <h2>Home</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam mollitia ad minus dolores ab reprehenderit facilis, accusantium odio inventore atque explicabo deserunt et, temporibus, praesentium magnam consequatur adipisci eveniet iusto!</p>
+        <div class="h-[calc(100vh-56px)] w-full flex items-center justify-center">
+            <div class="mb-[10%] text-center">
+                <h2 class="text-7xl mb-2">Hello!</h2>
+                <p class="text-2xl">Welcome to <span class="text-teal-500">Nuxt Ecom</span></p>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -10,7 +14,4 @@
 </script>
 
 <style scoped>
-h2{
-    margin-top: 10px;
-}
 </style>
